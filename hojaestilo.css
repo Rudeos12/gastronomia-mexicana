@@ -1,0 +1,131 @@
+   /*selectores comunes*/
+        body{
+            width:750 px; 
+            height: 750px; margin:auto;
+            background-color:#34495E;                          
+         } 
+        
+        p{font-family:serif;
+          text-align: center;
+        font-size: 20px;    
+        }
+        /*selectores de clase*/
+        
+        .Negro{
+            color:lightskyblue;
+            font-family: fantasy;
+            font-size: 30px;
+            }
+        /*Selectores de id*/
+        #paraDiv{
+            height:60px;
+            background-color:#6dd47e;
+            color:white;
+            font-size: 30px;
+            font-family: sans-serif;    
+            
+        }
+        /*Selectores de grupo
+         h2, h3{
+            font-family: black;
+            font-size: 15px;
+            color:black;
+            
+        }*/
+/*Selectores de id para div*/
+#fondoDiv{
+    background-image: url(logo.png);
+    width: 400px;
+    height: 100px;
+    background-position: top;
+    
+    
+}
+  
+
+#menu{
+    background-color:#F1C40F;
+}
+        #menu ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+}
+#menu ul li{
+    display:inline-block;
+   
+}
+#menu ul li a{
+    color:whitesmoke;
+    text-decoration-color: none;
+    display:block;
+    padding: 10px  50px;
+ 
+}
+#menu ul li a:hover{
+    background-color:#F4D03F;
+}
+.item-r{
+    float:left;
+}
+
+.slider {
+	width: 50%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+/*principal: section:*/
+section { width: 75%; background-color:#293250; float: left; }
+section h1 { text-align: center; padding: 0.5em; color: black; font-size: 1.4em; }
+section h2 { text-align: center; padding: 0.5em; color: black; font-size: 1.8em; }
+section h3 { text-align: left; padding: 0.3em 3em; color: black; font-size: 1em;  }
+
+/*artículos: article*/
+article { margin: 0.5em 3em; padding: 0.5em 2em; background-color: white; border: 3px double yellow; }
+article p { text-align: justify; }
+
+/*propaganda: aside*/
+aside { width: 25%; float: left; }
+#anuncio1 { margin: 20px; padding: 10px; border: 2px solid blue; background-color: #34495E; }
+#anuncio1 h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#anuncio1 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#anuncio1 p { font-size: 0.9em; padding: 0.2em 1em; }
+
+/*pie de página: footer*/
+footer { clear: both; background-color: brown; }
+footer h1 { text-align: center; font-size: 1em; color: white; padding: 0.5em; }
+footer h2 { text-align: center; font-size: 1em; padding: 0.4em; }
+footer a { text-decoration: none; color: white; }
